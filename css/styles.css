@@ -445,13 +445,9 @@ body {
   color: var(--logo-main-color);
   margin-bottom: 16px;
 }
-.footer-form-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-}
 .footer-form {
+  display: flex;
+  gap: 24px;
 }
 .footer-label {
 }
