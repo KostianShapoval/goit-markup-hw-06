@@ -745,7 +745,6 @@ body {
   margin-bottom: 24px;
 }
 .modal-check-icon {
-  display: inline-flex;
 }
 .modal-label-check span {
   display: inline-flex;
@@ -754,7 +753,6 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -768,7 +766,6 @@ body {
   fill: #f4f4fd;
 }
 .modal-check-link {
-  display: inline-flex;
   text-decoration: underline;
   color: rgba(77, 90, 229, 1);
 }
