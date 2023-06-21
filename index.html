@@ -520,6 +520,22 @@
             </li>
           </ul>
         </div>
+        <div class="footer-forms">
+          <p class="footer-form-subtitle">Subscribe</p>
+          <div class="footer-form-block">
+            <form action="" class="footer-form">
+              <label for="email" class="footer-label"></label>
+              <input
+                name="email"
+                id="email"
+                placeholder="E-mail"
+                type="email"
+                class="footer-input"
+              />
+            </form>
+            <button type="submit" class="footer-form-btn">Subscribe</button>
+          </div>
+        </div>
       </div>
     </footer>
     <div class="is-hidden backdrop" data-modal>
@@ -555,14 +571,31 @@
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </div>
+            <label class="modal-label" for="comment">Comment</label>
             <textarea
               class="modal-textarea"
               placeholder="Text input"
               name="comment"
-              id=""
-              cols="40"
-              rows="10"
+              id="comment"
             ></textarea>
+            <div class="modal-accept">
+              <input
+                class="modal-check visually-hidden"
+                id="accept"
+                value="accept"
+                name="accept"
+                type="checkbox"
+              />
+              <label class="modal-label-check" for="accept"
+                ><span>
+                  <svg class="check-icon" width="10" height="10">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                  </svg>
+                </span>
+                I accept the terms and conditions of the
+                <a href="" class="modal-check-link">Privacy Policy</a></label
+              >
+            </div>
             <button class="modal-form-btn" type="submit">Send</button>
           </form>
         </div>
