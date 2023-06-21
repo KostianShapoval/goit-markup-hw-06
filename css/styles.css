@@ -768,6 +768,7 @@ body {
   fill: #f4f4fd;
 }
 .modal-check-link {
+  display: inline-flex;
   text-decoration: underline;
   color: rgba(77, 90, 229, 1);
 }
