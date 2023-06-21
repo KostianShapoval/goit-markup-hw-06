@@ -744,12 +744,6 @@ body {
   color: #8e8f99;
   margin-bottom: 24px;
 }
-.modal-check-icon {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
-}
 .modal-label-check span {
   width: 16px;
   height: 16px;
@@ -760,7 +754,10 @@ body {
   justify-content: center;
   align-items: center;
   fill: transparent;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 .modal-check:checked + .modal-label-check span {
   background-color: #404bbf;
