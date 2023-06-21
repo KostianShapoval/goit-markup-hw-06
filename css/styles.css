@@ -713,6 +713,7 @@ body {
   margin-bottom: 16px;
 }
 .modal-textarea {
+  background-color: transparent;
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -725,11 +726,14 @@ body {
   width: 100%;
   resize: none;
   height: 120px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
 }
 .modal-textarea:focus {
   border-color: var(--logo-color);
+}
+.modal-accept {
+  margin-bottom: 24px;
 }
 .modal-label-check {
   display: flex;
@@ -739,6 +743,12 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 24px;
+}
+.modal-check-icon {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 .modal-label-check span {
   width: 16px;
@@ -765,7 +775,7 @@ body {
   display: block;
   margin: 0 auto;
   background: #4d5ae5;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
   letter-spacing: 0.04em;
@@ -773,7 +783,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-btn:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
