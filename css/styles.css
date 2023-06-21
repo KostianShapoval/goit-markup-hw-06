@@ -744,6 +744,9 @@ body {
   color: #8e8f99;
   margin-bottom: 24px;
 }
+.modal-check-icon {
+  display: inline-flex;
+}
 .modal-label-check span {
   width: 16px;
   height: 16px;
