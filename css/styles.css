@@ -436,6 +436,7 @@ body {
   fill: var(--footer-text);
 }
 .footer-forms {
+  margin-left: 80px;
 }
 .footer-form-subtitle {
   font-weight: 500;
@@ -785,6 +786,9 @@ body {
   letter-spacing: 0.04em;
   color: var(--customer-color);
   display: block;
+}
+.modal-svg {
+  position: relative;
 }
 .modal-form-block {
   position: relative;
